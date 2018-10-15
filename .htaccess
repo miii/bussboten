@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /bussboten/
+RewriteCond $1 !^(index\.php|images/|js/|css/|bussboten\.apk|sitemap\.xml|robots\.txt|googlec9c43f158cf1fbd6\.html)
+RewriteRule ^(.*)$ index.php?/$1 [L]

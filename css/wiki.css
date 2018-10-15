@@ -1,0 +1,196 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-family:"Roboto Condensed";
+	background:#EFEFEF;
+	height:100%;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 18px;
+	padding: 10px;
+}
+
+#container {
+	width:100%;
+	max-width:700px;
+	margin:auto auto 100px auto;
+}
+
+h2, h3 {
+	color: #232323;
+}
+
+h2 {
+	font-weight:300;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+
+h3 {
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 22px;
+}
+
+pre {
+	margin: 10px 0;
+	font-size: 12px;
+	tab-size:4;
+	padding:6px;
+	background:#232323;
+}
+
+code {
+	overflow-x:auto;
+	padding:0 !important;
+}
+
+table {
+	width:100%;
+	font-size: 14px;
+}
+
+	thead,
+	.thead {
+		font-weight: 400;
+	}
+	
+	tr {
+		border-bottom: 1px solid #DDD;
+	}
+	
+	td {
+		padding:5px;
+		width:40%;
+	}
+	
+	td.code {
+		font-family:monospace;
+		font-size: 12px;
+	}
+	
+	td:first-child {
+		width:15%;
+	}
+	
+.card p > span {
+	color:#577c96;
+	font-family:monospace;
+	font-size:14px;
+}
+
+table span {
+	padding:2px 5px;
+	margin-right:5px;
+	background:#A5C261;
+	color:#FFF;
+	-webkit-border-radius:2px;
+	text-shadow:1px 1px 1px #687a3b;
+}
+
+section.card {
+	box-shadow:0px 2px 1px #E2E2E2;
+	-webkit-border-radius:3px;
+	background:#F8F8F8;
+	padding:20px;
+	margin-bottom: 20px;
+	border:1px solid #ECECEC;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+a:link,
+a:visited {
+	color:inherit;
+	text-decoration:inherit;
+}
+
+#methods {
+	left:50%;
+	margin-left:-560px;
+	width:200px;
+	position:fixed;
+	top:10px;
+	font-size: 16px;
+	line-height:18px;
+	color:#999;
+	text-shadow:1px 1px 1px #FFF;
+	-webkit-border-radius:3px;
+	background:#F8F8F8;
+	padding:10px;
+	border:1px solid #ECECEC;
+}
+
+#methods h2 {
+	margin-bottom: 5px;
+}
+
+#methods ul li {
+	list-style:none;
+}
+
+#methods ul li a {
+	-webkit-border-radius:3px;
+	background:#232323;
+	padding:10px;
+	margin-bottom: 5px;
+	color:#FFF;
+	display:block;
+	text-shadow:none;
+}
+
+#methods ul li a:hover {
+	background:#000;
+}
+
+#methods ul li span {
+	background:#A5C261;
+	text-shadow:none;
+	padding: 2px 7px;
+	margin-right:5px;
+	font-size: 14px;
+	-webkit-border-radius:2px;
+	text-shadow:1px 1px 1px #687a3b;
+}
+
+#methods h1 {
+	color:#232323;
+	font-weight:300;
+	font-size: 30px;
+	line-height:35px;
+	margin-bottom: 5px;
+}
+
+@media screen and (max-width: 720px){
+	
+	#container {
+		margin: 0;
+	}
+
+	section.card {
+		margin-bottom: 13px;
+	}
+
+}
+
+@media screen and (max-width: 1150px){
+	
+	#methods {
+		max-width:700px;
+		width:100%;
+		position:static;
+		margin:auto auto 10px auto;
+		-webkit-border-radius:3px;
+		background:#F8F8F8;
+		padding:10px;
+		border:1px solid #ECECEC;
+	}
+
+}
